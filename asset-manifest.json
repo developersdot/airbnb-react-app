@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/airbnb-react-app/static/css/main.ab38f279.css",
+    "main.js": "/airbnb-react-app/static/js/main.d395fdf6.js",
+    "static/media/Group 77.png": "/airbnb-react-app/static/media/Group 77.20425e7d15b2460e7958.png",
+    "static/media/airbnb 1.svg": "/airbnb-react-app/static/media/airbnb 1.b28cf7f017befbd331c4020b8002efbd.svg",
+    "static/media/Star 1.svg": "/airbnb-react-app/static/media/Star 1.4253351289a38a7cf56081641a6dcee6.svg",
+    "index.html": "/airbnb-react-app/index.html",
+    "main.ab38f279.css.map": "/airbnb-react-app/static/css/main.ab38f279.css.map",
+    "main.d395fdf6.js.map": "/airbnb-react-app/static/js/main.d395fdf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab38f279.css",
+    "static/js/main.d395fdf6.js"
+  ]
+}
