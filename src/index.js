@@ -1,17 +1,58 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './css/index.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Card from './components/Card';
+
+
+  const data = [
+    {
+      'key': 1,
+      'img': 'image 12.svg',
+      'star': '5.0',
+      'reviews': 6,
+      'location':'USA',
+      'tagline':'Life lessons with Katie Zaferes',
+      'price':'$136'
+    },
+    {
+      'key': 2,
+      'img': 'wedding-photography 1.svg',
+      'star': '5.0',
+      'reviews': 30,
+      'location':'USA',
+      'tagline':'Learn wedding photography',
+      'price':'$125'
+    },
+    {
+      'key': 3,
+      'img': 'mountain-bike 1.png',
+      'star': '5.0',
+      'reviews': 2,
+      'location':'USA',
+      'tagline':'Group Mountain Biking',
+      'price':'$50'
+    }
+  ];
+
+  const cards = data.map(item => {
+    return(
+      <Card 
+        key={item.key}
+        {...item} 
+      />
+    );
+  });
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header  />
+    <Main />
+    <div className="card-main">
+      {cards}
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

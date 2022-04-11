@@ -1,0 +1,72 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App-header {
+  height: 4rem;
+  display: flex;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.App-logo {
+  padding: 1.2rem 2rem;
+}
+
+.hero{
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.hero__heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.hero__description {
+    margin: 0;
+}
+
+.card-main {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.card{
+  margin: 1rem;
+}
+
+.clr-grey {
+  color: #918E9B;
+}
+
+.card div span {
+    padding: 2px;
+}
+
+.card__price {
+  font-weight: 600;
+}
+
+.card__tagline {
+  font-size: 14px;
+  max-width: 12.8em;
+  min-height: 2rem;
+}
+
+@media (max-width: 580px) {
+  .card-main {
+    flex-direction: column;
+  }
+  .card {
+    margin: auto;
+  }
+}
